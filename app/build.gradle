@@ -32,7 +32,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.sanjayApanchal'
             artifactId = 'viewpagerlayoutmanager'
-            version = '1.0.0'
+            version = '1.0.2'
 
             // ✅ Manually specify the AAR file
             artifact("$buildDir/outputs/aar/${project.name}-release.aar")
