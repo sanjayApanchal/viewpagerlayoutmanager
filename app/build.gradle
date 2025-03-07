@@ -1,21 +1,22 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
+apply plugin: 'maven-publish'
 
 android {
-    compileSdkVersion 34 // Updated to the latest version
-//    buildToolsVersion '33.0.0' // Updated to match the SDK
+    compileSdkVersion 34
 
-    namespace 'com.leochuan' // Specify your namespace here
+    namespace 'com.leochuan'
 
     defaultConfig {
         minSdkVersion 26
-        targetSdkVersion 34 // Updated to match the latest version
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner" // Updated to AndroidX
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
     kotlinOptions {
-        jvmTarget = "17" // Change to 17
+        jvmTarget = "17"
     }
 
     buildTypes {
@@ -26,15 +27,28 @@ android {
     }
 }
 
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.sanjayApanchal'
+            artifactId = 'viewpagerlayoutmanager'
+            version = '1.0.0'
+
+            // ✅ Manually specify the AAR file
+            artifact("$buildDir/outputs/aar/${project.name}-release.aar")
+        }
+    }
+}
+
 dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.3.2'
     implementation 'androidx.core:core-ktx:1.12.0'
 }
 
-// Keep sourcesJar task if you need to generate source JAR
+// Generate sources JAR
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
-    archiveClassifier.set("sources") // Using "sources" as the classifier for the sources jar
+    archiveClassifier.set("sources")
 }
 
 artifacts {
