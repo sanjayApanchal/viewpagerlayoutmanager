@@ -1,9 +1,8 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'maven-publish'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 35
     namespace 'com.leochuan'
 
     defaultConfig {
@@ -22,27 +21,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-
-    publishing {
-        // ✅ Explicitly enable publishing for the release variant
-        singleVariant("release") {
-            withSourcesJar()
-            withJavadocJar()
-        }
-    }
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            create("release", MavenPublication) {
-                from components.release // ✅ Ensures it uses the correct release component
-                groupId = 'com.github.sanjayApanchal'
-                artifactId = 'viewpagerlayoutmanager'
-                version = '1.0.4'
-            }
         }
     }
 }

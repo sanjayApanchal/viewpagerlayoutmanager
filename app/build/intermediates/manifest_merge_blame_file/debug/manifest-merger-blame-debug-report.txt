@@ -1,7 +1,28 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.leochuan" >
-4
-5    <uses-sdk android:minSdkVersion="26" />
+3    package="com.leochuan"
+4    android:versionCode="1"
+5    android:versionName="1.0.4" >
 6
-7</manifest>
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.leochuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.leochuan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false" />
+21
+22</manifest>

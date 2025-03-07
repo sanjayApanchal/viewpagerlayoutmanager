@@ -10,17 +10,10 @@
         android:name="androidx.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.leochuan.test"
-        android:targetPackage="com.leochuan.test" />
-
-    <permission
-        android:name="com.leochuan.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-        android:protectionLevel="signature" />
-
-    <uses-permission android:name="com.leochuan.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+        android:label="Tests for com.leochuan"
+        android:targetPackage="com.leochuan" />
 
     <application
-        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false" >
         <uses-library android:name="android.test.runner" />
