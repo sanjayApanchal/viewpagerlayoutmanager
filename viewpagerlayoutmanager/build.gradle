@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.sanjaylohar.viewpagerlayoutmanager'
+    namespace 'com.leochuan'
     compileSdk 34
 
     defaultConfig {
