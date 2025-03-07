@@ -1,0 +1,10 @@
+#Fri Mar 07 12:15:12 IST 2025
+base.0=D\:\\libraries\\viewpagerlayoutmanager\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=D\:\\libraries\\viewpagerlayoutmanager\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeLibDexDebugAndroidTest\\9\\classes.dex
+base.2=D\:\\libraries\\viewpagerlayoutmanager\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=classes.dex
+path.1=9/classes.dex
+path.2=0/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

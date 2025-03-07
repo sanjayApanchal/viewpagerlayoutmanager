@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+attr? direction
+attr? timeInterval
+id left
+id right
+string app_name
+styleable AutoPlayRecyclerView timeInterval direction

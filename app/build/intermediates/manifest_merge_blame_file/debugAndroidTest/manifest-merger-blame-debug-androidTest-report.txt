@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.leochuan.test" >
+4
+5    <uses-sdk
+5-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:5:5-74
+6        android:minSdkVersion="26"
+6-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:11:5-15:67
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:11:22-76
+11        android:functionalTest="false"
+11-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:13:22-53
+13        android:label="Tests for com.leochuan.test"
+13-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:15:22-65
+14        android:targetPackage="com.leochuan.test" />
+14-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:12:22-63
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.leochuan.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.leochuan.test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:7:5-9:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.12.0] C:\Users\sanjay.lohar\.gradle\caches\8.9\transforms\30e57c7fdbac8b254d45b7489d2c0941\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false" >
+26        <uses-library android:name="android.test.runner" />
+26-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:8:9-60
+26-->D:\libraries\viewpagerlayoutmanager\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest18146242871892093696.xml:8:23-57
+27    </application>
+28
+29</manifest>

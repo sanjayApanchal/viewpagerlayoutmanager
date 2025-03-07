@@ -1,0 +1,7 @@
+com.leochuan
+attr direction
+attr timeInterval
+id left
+id right
+string app_name
+styleable AutoPlayRecyclerView direction timeInterval
